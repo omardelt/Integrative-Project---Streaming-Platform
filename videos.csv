@@ -1,0 +1,29 @@
+type,id,name,length,genre,season,episode_title,episode_ratings,video_ratings
+movie,1,Inception,148,SciFi,,,,"5,4,5,3,4"
+movie,2,The Dark Knight,152,Action,,,,"5,5,4,5,5"
+movie,3,Interstellar,169,SciFi,,,,"4,5,5,4,3"
+movie,4,Parasite,132,Drama,,,,"5,4,5,5,4"
+movie,5,The Godfather,175,Drama,,,,"5,5,5,4,5"
+movie,6,Get Out,104,Mystery,,,,"4,4,5,3,4"
+movie,7,Knives Out,130,Mystery,,,,"4,5,4,4,3"
+movie,8,Mad Max Fury Road,120,Action,,,,"4,3,5,4,4"
+serie,9,Breaking Bad,45,Drama,1,Pilot,"5,4,5","5,5,4,5"
+serie,9,Breaking Bad,45,Drama,1,Cat's in the Bag,"4,4,3",
+serie,9,Breaking Bad,45,Drama,1,And the Bag's in the River,"5,3,4",
+serie,9,Breaking Bad,45,Drama,2,Seven Thirty-Seven,"5,5,4",
+serie,9,Breaking Bad,45,Drama,2,Down,"4,4,5",
+serie,9,Breaking Bad,45,Drama,2,Over,"3,4,4",
+serie,10,Stranger Things,50,SciFi,1,The Vanishing of Will Byers,"5,4,5","4,5,4,4"
+serie,10,Stranger Things,50,SciFi,1,The Weirdo on Maple Street,"4,5,4",
+serie,10,Stranger Things,50,SciFi,1,Holly Jolly,"5,5,3",
+serie,10,Stranger Things,50,SciFi,2,MADMAX,"4,4,5",
+serie,10,Stranger Things,50,SciFi,2,Trick or Treat Freak,"3,4,4",
+serie,11,Dark,45,Mystery,1,Secrets,"5,4,4","5,4,5,4"
+serie,11,Dark,45,Mystery,1,Lies,"4,5,5",
+serie,11,Dark,45,Mystery,1,Past and Present,"5,5,4",
+serie,11,Dark,45,Mystery,2,Beginnings and Endings,"4,4,5",
+serie,11,Dark,45,Mystery,2,Dark Matter,"5,3,4",
+serie,12,The Last of Us,60,Action,1,When You're Lost in the Darkness,"5,5,5","5,5,4,5"
+serie,12,The Last of Us,60,Action,1,Infected,"5,4,5",
+serie,12,The Last of Us,60,Action,1,Long Long Time,"5,5,5",
+serie,12,The Last of Us,60,Action,2,Future Days,"4,5,4",
