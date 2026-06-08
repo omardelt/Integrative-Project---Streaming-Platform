@@ -8,3 +8,6 @@ void Movie::displayInfo() {
     cout << "Length: " << length << " minutes" << endl;
     cout << "Average Rating: " << getAvgRating() << "/5" << endl;
 }
+
+Movie::Movie() : Video(0, "Default Movie", 0, "Unknown", vector<int>()) {}
+
