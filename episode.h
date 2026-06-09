@@ -1,18 +1,17 @@
 #pragma once
-
+#include "video.h"
 #include <iostream>
 #include <string>
 #include <vector>
 using namespace std;
 
-class Episode {
+class Episode: public Video {
 private:
-    string title;
-    vector<int> ratings;
-    int length;
+    string serie;
+    int season;
 
 public:
-    Episode(string title, vector<int> ratings, int length);
+    Episode(int id, string serie, int length, string genre, vector<int> ratings, int season, string episodeTitle);
     float getAvgRating();
-    void displayInfo();
+    void displayInfo() override;
 };
