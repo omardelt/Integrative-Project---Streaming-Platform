@@ -5,11 +5,11 @@
 class Season {
 private:
     int number;
-    vector<Episode> episodes;
+    vector<Episode*> episodes;
 
 public:
-    Season(int number, vector<Episode> episodes);
-    void addEpisode(Episode episode);
+    Season(int number, vector<Episode*> episodes);
     void getEpisodes();
     int getEpisodeCount();
+    Season operator+( Episode* episode);
 };
