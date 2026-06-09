@@ -19,7 +19,6 @@ public:
     void rate(int score);
     float getAvgRating();
     virtual void displayInfo() = 0;
-    //static bool isInt(const std::string& str);
     static void safeVector(vector <int>& vec, string str);
 
 };

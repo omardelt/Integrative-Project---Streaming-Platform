@@ -38,3 +38,4 @@ void Video::safeVector(vector <int>& vec, string str){
         }
     }
 }
+
