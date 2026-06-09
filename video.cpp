@@ -30,7 +30,7 @@ float Video::getAvgRating(){
 
 
 void Video::safeVector(vector <int>& vec, string str){
-    cout<<"String recibido: "<<str<<endl;
+   
     int x=0;
     for(int i=0; i<str.size();i++){
         if(isdigit(str[i])){

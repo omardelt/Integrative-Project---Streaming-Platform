@@ -48,14 +48,9 @@ void Csvreader::read(const string name, vector<Video*>&r){
             case 7:
                 episodeTitle=videoString;
                 break;
-            // case 8:
-            //     epRatString=videoString;
-            //     break;
-            // case 9:
-            //     vidRatString=videoString;
-            //     break;
+            
             default:
-                cout<<"Rating "<<endl;
+                
                 rating+=videoString;
 
                 break;
@@ -63,15 +58,13 @@ void Csvreader::read(const string name, vector<Video*>&r){
             
         }
         ncont=0;
-        cout<<"El string de rating es: "<<rating<<endl;
+        
         Video::safeVector(videoRatings,rating);
         if(type=="movie"){
             video=new Movie(id,vidName,length,genre,videoRatings);
         }else{
-            //aquí deben de ir los episodios, pero como no los tengo hechas, por ahora se crean como películas
-            video=new Movie();
-            //Video::safeVector(episodeRatings,epRatString);
-            //video=new Episode(episodeTitle,episodeRatings,length);
+            video=new Episode(id,vidName,length,genre,videoRatings,stoi(season),episodeTitle);
+           
         }
         
 

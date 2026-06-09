@@ -12,6 +12,6 @@ private:
 
 public:
     Episode(int id, string serie, int length, string genre, vector<int> ratings, int season, string episodeTitle);
-    float getAvgRating();
+    
     void displayInfo() override;
 };
