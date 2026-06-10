@@ -9,7 +9,11 @@ private:
 
 public:
     Season(int number, vector<Episode*> episodes);
+    void addEpisode(Episode* episode);
     void getEpisodes();
+    void getEpisodesByRating(float r);
     int getEpisodeCount();
-    Season operator+( Episode* episode);
+    int getNumber();
+
+    Season& operator+(Episode* episode);
 };
